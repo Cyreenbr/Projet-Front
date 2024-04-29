@@ -1,0 +1,240 @@
+body {
+    margin: 0%;
+    background-image: url(image2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+#bord-form{
+    padding: 40px;
+    border: 1px solid white;
+    position: relative;
+    z-index: 1;
+
+}
+
+#titleContainer {
+    position: absolute;
+    top: 3px; 
+    padding: 0 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #da190b;
+    z-index: 2;
+}
+
+
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+#navbar {
+        background-color: #7a7474c0;
+        overflow: hidden;
+        height: 50px;
+       
+    }
+
+#home {
+    width: 80%;
+    max-width: 800px;
+    background-color:transparent;
+    padding: 20px;
+  
+}
+
+#Buttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#mainContent {
+    display: flex;
+    background-color: transparent;
+}
+
+#contact {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#rightPanel {
+    flex: 1;
+    
+}
+
+#AjoutContact {
+   padding: 30px;
+}
+
+#contactDetails {
+    background-color: #7a7474c0;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    background-color: #7a7474c0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    background-color: #7a7474c0;
+    border-radius: 20px;
+    position: relative;
+    padding: 20px;  
+}
+
+#btnAjout
+{
+}
+
+.contactElement:hover {
+    background-color: rgba(255, 0, 0, 0.623);
+    cursor: pointer; 
+}
+
+.selected {
+    color: rgba(59, 9, 151, 0.637);
+    background-color: rgba(255, 0, 0, 0.623);
+}
+
+#deleteButton {
+    background-color: rgba(255, 0, 0, 0.507); 
+    color: white; 
+    border: none; 
+    padding: 10px; 
+    cursor: pointer; 
+    border: 0.5px solid rgb(255, 255, 255);
+
+}
+
+#deleteAllButton {
+    background-color: rgba(255, 0, 0, 0.507); 
+    color: white; 
+    border: none; 
+    padding: 10px ; 
+    cursor: pointer; 
+    border: 0.5px solid rgb(255, 255, 255);
+
+}
+
+button {
+    background-color: rgba(255, 0, 0, 0.507); 
+    color: white; 
+    border: none; 
+    padding: 10px ; 
+    margin: 5px ;
+    cursor: pointer; 
+    border: 0.5px solid rgb(255, 255, 255);
+}
+
+input {
+    border: 1px solid rgb(253, 250, 250); 
+    background-color: #ece7e731; 
+    margin: 10px; 
+    padding: 10px; 
+}
+
+.select-item {
+    border: 3px solid rgb(253, 250, 250); 
+    background-color:grey; 
+    margin: 10px; 
+    padding: 10px; 
+    color:rgb(253, 250, 250);
+}
+
+select {
+    border: 1px solid rgb(253, 250, 250); 
+    background-color: #ece7e731; 
+    margin: 10px; 
+    padding: 10px; 
+    color:rgb(253, 250, 250);
+}
+
+#deleteButton:hover {
+    background-color: darkred; 
+    
+}
+
+#deleteAllButton:hover {
+    background-color: darkred; 
+    
+}
+
+#addButton {
+    background-color: rgba(255, 0, 0, 0.507); 
+    color: white; 
+    border: none; 
+    padding: 10px ; 
+    cursor: pointer; 
+    border: 0.5px solid rgb(255, 255, 255);
+}
+
+#addButton:hover {
+    background-color: rgb(168, 23, 23);
+}
+
+#closeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f44336;
+    color: white; 
+    cursor: pointer; 
+    border: none;
+    z-index: 2;
+}
+
+#closeButton:hover {
+    background-color: #da190b; 
+}
+
+#Buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+#Buttons button {
+    font-size: 20px; 
+}
+.contactElement {
+    border: 1px solid rgb(253, 250, 250); 
+    background-color: #ece7e731; 
+    margin: 10px; 
+    padding: 10px; 
+}
+
