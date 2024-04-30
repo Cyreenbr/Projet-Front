@@ -6,35 +6,34 @@
     <link rel="stylesheet" type="text/css" href="contactList-style.css">
     <link rel="stylesheet" type="text/css" href="details-style.css">
     <link rel="stylesheet" type="text/css" href="form-style.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
 </head>
 <body>
     <div id="navbar">
-    <h2>Le carnet d'addresse local</h2>
+        <h2>Le carnet d'addresse local</h2>
     </div>
     
- <div id="content"> 
+    <div id="content"> 
 
     <div id="home">
 
-        <h1>Gerer la liste des contacts</h1> 
+     <h1>Gerer la liste des contacts</h1> 
 
-<div id="Buttons">
+     <div id="Buttons">
    
-    <button id="addButton" onclick="showForm()"><i class="fa fa-plus"></i></button>
-    <button id="deleteButton" onclick="deleteContact()"><i class="fa fa-trash"></i></button>
-    <button id="deleteAllButton"><i class="fa fa-trash"></i>all</button>
+        <button id="addButton" onclick="showForm()"><i class="fa fa-plus"></i></button>
+        <button id="deleteButton" onclick="deleteContact()"><i class="fa fa-trash"></i></button>
+        <button id="deleteAllButton"><i class="fa fa-trash"></i>all</button>
 
-</div>
+     </div>
 
-<div id="mainContent">
-    <div id="contact">
-        <h2>Contacts enregistrés</h2>
-        <div id="contactList"></div>
-    </div>   
-    <div id="rightPanel">
+     <div id="mainContent">
+        <div id="contact">
+            <h2>Contacts enregistrés</h2>
+            <div id="contactList"></div>
+        </div>   
+     <div id="rightPanel">
         <div id="contactDetails">
         </div>
             <div id="contactForm" style="display:none;"> 
@@ -42,34 +41,35 @@
                 <div id="AjoutContact">
                    
                     <div id="titleContainer">
-                <h3>Saisie/modification d'un contact</h3>
+                        <h3>Saisie/modification d'un contact</h3>
                     </div>
 
                  <div id="bord-form">
-                <label for="civilite">Civilite:</label><br>
-                <select id="civilite">
+                    <label for="civilite">Civilite:</label><br>
+                    <select id="civilite">
                     <option class="select-item" value="madame">Madame</option>
                     <option class="select-item" value="mademoiselle">Mademoiselle</option>
                     <option class="select-item" value="monsieur">Monsieur</option>
-                </select> <br>
-                <label for="prenom">Prenom:</label><br>
-                <input type="text" id="prenom" name="prenom"><br>
-                <label for="name">Nom:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="telephone">téléphone:</label><br>
-                <input type="text" id="telephone" name="téléphone"><br><br>
-                <button id="btnAjout" onclick="addContact()">Enregistrer</button>
-                <button id="resetButton" onclick="resetButton()">Effacer</button>
+                    </select> <br>
+                    <label for="prenom">Prenom:</label><br>
+                    <input type="text" id="prenom" name="prenom"><br>
+                    <label for="name">Nom:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="telephone">téléphone:</label><br>
+                    <input type="text" id="telephone" name="téléphone"><br><br>
+                    <button id="btnAjout" onclick="addContact()">Enregistrer</button>
+                    <button id="resetButton" onclick="resetButton()">Effacer</button>
                 
+                 </div>
                 </div>
-            </div>
+        </div>
     </div>
-</div>
 
     </div>
  </div>
 
-    <script src="script.js"></script>
+ <!--Liens fichiers js-->
+    <script src="index.js"></script>
     <script src="formScript.js"></script>
     <script src="detailsScript.js"></script>
 
