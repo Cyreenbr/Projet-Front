@@ -1,0 +1,25 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    background-color: #7a7474c0;
+    border-radius: 20px;
+    position: relative;
+    padding: 20px;  
+}
+
+.contactElement {
+    border: 1px solid rgb(253, 250, 250); 
+    background-color: #ece7e731; 
+    margin: 10px; 
+    padding: 10px; 
+}
+
+.contactElement:hover {
+    background-color: rgba(255, 0, 0, 0.623);
+    cursor: pointer; 
+}
+
+.selected {
+    color: rgba(59, 9, 151, 0.637);
+    background-color: rgba(255, 0, 0, 0.623);
+}
